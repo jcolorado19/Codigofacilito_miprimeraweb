@@ -1,16 +1,23 @@
 body
 {
 	font-family: 'Philosopher', sans-serif;
+
 }
 
 img
 {
-	max-width: 100;
+	max-width: 100%;
+	margin: 0px;
 }
 
 .quitar-float
 {
 	float: none;
+}
+
+.ir-inicio
+{
+	vertical-align: top;
 }
 
 .espacio-arriba
@@ -23,9 +30,42 @@ img
 	font-family: 'Pacifico', cursive;
 }
 
+.se-gris
+{
+	background-color: #eee;
+}
+
+.padding-largo
+{
+	padding: 5px 10px;
+}
+
 .verde
 {
 	color: #00833D;
+}
+
+.inline-block
+{
+	float: none;
+	display: inline-block;
+	margin-right: -4px;
+}
+
+.grande
+{
+	font-size: 4em;
+}
+
+.no-list
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.no-list li
+{
+	list-style-type: none;
 }
 
 .espacio-derecha
@@ -33,7 +73,7 @@ img
 	margin-right: 1em;
 }
 
-a
+a, .azul
 {
 	color: #009FFF;
 }
